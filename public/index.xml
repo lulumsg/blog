@@ -6,26 +6,26 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2026 19:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Guide to Mermaid Diagrams in Hugo</title>
-      <link>http://localhost:1313/post/mermaid-test/</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <title>Como me preparei para a AWS Certified Solutions Architect – Associate</title>
+      <link>http://localhost:1313/post/aws-saa/</link>
+      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
       
-      <guid>http://localhost:1313/post/mermaid-test/</guid>
+      <guid>http://localhost:1313/post/aws-saa/</guid>
       
-        <description>Guide to Mermaid Diagrams in Hugo</description>
+        <description>Um guia sobre como me preparei para a SAA.</description>
       
     </item>
     
     <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/post/math-typesetting/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Do Zero ao Deploy: Como publiquei meu site com Hugo e Cloudflare Pages</title>
+      <link>http://localhost:1313/post/publicando-hugo-cloudflare-pages/</link>
+      <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
       
-      <guid>http://localhost:1313/post/math-typesetting/</guid>
+      <guid>http://localhost:1313/post/publicando-hugo-cloudflare-pages/</guid>
       
-        <description>A brief guide to setup and use KaTeX</description>
+        <description>Um guia prático sobre a criação deste blog utilizando Hugo, VS Code e Cloudflare.</description>
       
     </item>
     
@@ -52,61 +52,6 @@
     </item>
     
     <item>
-      <title>The Notice Shortcode</title>
-      <link>http://localhost:1313/post/notice-shortcode/</link>
-      <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/notice-shortcode/</guid>
-      
-        <description>&lt;p&gt;The notice shortcode supports three different types of disclaimers. These are as following:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Series Part 2</title>
-      <link>http://localhost:1313/post/series-part-2/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/series-part-2/</guid>
-      
-        <description>A brief guide to how to setup series part 2</description>
-      
-    </item>
-    
-    <item>
-      <title>Series Part 1</title>
-      <link>http://localhost:1313/post/series-part-1/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/series-part-1/</guid>
-      
-        <description>A brief guide to how to setup series part 1</description>
-      
-    </item>
-    
-    <item>
-      <title>Redirect</title>
-      <link>http://localhost:1313/post/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/redirect/</guid>
-      
-        <description>Usage of redirectUrl</description>
-      
-    </item>
-    
-    <item>
-      <title>The Figure Shortcode</title>
-      <link>http://localhost:1313/post/figure-shortcode/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/figure-shortcode/</guid>
-      
-        <description>&lt;p&gt;Hugo has &lt;code&gt;figure&lt;/code&gt; shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title></title>
       <link>http://localhost:1313/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -118,39 +63,6 @@
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
-      
-        <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-      
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/rich-content/</guid>
-      
-        <description>A brief description of Hugo Shortcodes</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/placeholder-text/</guid>
-      
-        <description>Lorem Ipsum Dolor Si Amet</description>
-      
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -158,28 +70,6 @@
       <guid>http://localhost:1313/contact/</guid>
       
         <description>Contact Page</description>
-      
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/emoji-support/</guid>
-      
-        <description>Guide to emoji usage in Hugo</description>
-      
-    </item>
-    
-    <item>
-      <title>Guide to Thumbnails in Hugo</title>
-      <link>http://localhost:1313/post/image-test/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/image-test/</guid>
-      
-        <description>Guide to Thumbnails in Hugo</description>
       
     </item>
     

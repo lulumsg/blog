@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -15,11 +15,33 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/mermaid-test/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/cloudflare/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/publicando-hugo-cloudflare-pages/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/git/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -32,7 +54,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -45,7 +67,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -56,6 +78,18 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/webdev/</loc>
+    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/mermaid-test/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/thumbnail/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
@@ -125,19 +159,6 @@
                 href="http://localhost:1313/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -186,12 +207,6 @@
                 hreflang="en"
                 href="http://localhost:1313/contact/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/image-test/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
