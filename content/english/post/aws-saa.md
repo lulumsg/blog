@@ -8,6 +8,8 @@ categories: ["certificacao"]
 
 O AWS Certified Solutions Architect – Associate tem como foco o design de soluções otimizadas em termos de custo e desempenho. Ela é o ponto de partida ideal para candidatos com sólida experiência em TI on-premises ou na Nuvem AWS. Este exame não requer experiência prática profunda em codificação, embora a familiaridade com os conceitos básicos de programação seja uma vantagem.
 
+![Descrição da Imagem](/images/saa.png)
+
 A prova tem duração de 130 minutos, se você não for falante nativo de inglês, como eu, pode solicitar 30 minutos adicionais (ESL) para fazer seu exame. Antes de agendar o exame, acesse sua conta de treinamento e certificação da AWS, selecione “Solicitar adaptações para o exame” e “Solicitar adaptações”. Você pode selecionar a opção ESL e criar a solicitação. Ela deve ser aprovada automaticamente e você poderá visualizá-la em seu perfil
 
 ### Minhas impressões sobre a prova:

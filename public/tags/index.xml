@@ -6,7 +6,51 @@
     <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 18:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2026 19:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/aws/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Certificacao</title>
+      <link>http://localhost:1313/tags/certificacao/</link>
+      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/certificacao/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      <link>http://localhost:1313/tags/index/</link>
+      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Prova</title>
+      <link>http://localhost:1313/tags/prova/</link>
+      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/prova/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>Cloudflare</title>
       <link>http://localhost:1313/tags/cloudflare/</link>
@@ -41,17 +85,6 @@
     </item>
     
     <item>
-      <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
-      <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/index/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/tags/tutorial/</link>
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
@@ -68,127 +101,6 @@
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/tags/webdev/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Thumbnail</title>
-      <link>http://localhost:1313/tags/thumbnail/</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/thumbnail/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>http://localhost:1313/tags/demo/</link>
-      <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/demo/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Shortcode</title>
-      <link>http://localhost:1313/tags/shortcode/</link>
-      <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/shortcode/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Redirect</title>
-      <link>http://localhost:1313/tags/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/redirect/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>RedirectUrl</title>
-      <link>http://localhost:1313/tags/redirecturl/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/redirecturl/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Css</title>
-      <link>http://localhost:1313/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/css/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>http://localhost:1313/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/html/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/markdown/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>http://localhost:1313/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/privacy/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/shortcodes/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Text</title>
-      <link>http://localhost:1313/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/text/</guid>
       
         <description></description>
       
