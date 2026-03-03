@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudOps on My blog</title>
+    <link>http://localhost:1313/categories/cloudops/</link>
+    <description>Recent content in CloudOps on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/cloudops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como mapear corretamente Volume ID do EBS em uma EC2 Windows</title>
+      <link>http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/</guid>
+      
+        <description>Aprenda como identificar corretamente volumes EBS em instâncias EC2 Windows.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 baseURL = "https://blog-bqi.pages.dev/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Website of Luciana Silva"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"

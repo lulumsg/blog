@@ -6,13 +6,79 @@
     <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 19:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
       <link>http://localhost:1313/tags/aws/</link>
-      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/aws/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CloudOps</title>
+      <link>http://localhost:1313/tags/cloudops/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cloudops/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>EBS</title>
+      <link>http://localhost:1313/tags/ebs/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ebs/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>EC2</title>
+      <link>http://localhost:1313/tags/ec2/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ec2/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      <link>http://localhost:1313/tags/index/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NVMe</title>
+      <link>http://localhost:1313/tags/nvme/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nvme/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows Server</title>
+      <link>http://localhost:1313/tags/windows-server/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/windows-server/</guid>
       
         <description></description>
       
@@ -24,17 +90,6 @@
       <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/tags/certificacao/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
-      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/index/</guid>
       
         <description></description>
       

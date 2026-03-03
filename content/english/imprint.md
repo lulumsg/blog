@@ -2,7 +2,7 @@
 
 Information in accordance with the applicable law
 
-Jane Doe\
+Luciana Silva\
 Anatole Street 10\
 2016 GoHugo\
 Germany

@@ -6,7 +6,18 @@
     <description>Recent content in Categories on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 19:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudOps</title>
+      <link>http://localhost:1313/categories/cloudops/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/cloudops/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>Certificacao</title>
       <link>http://localhost:1313/categories/certificacao/</link>

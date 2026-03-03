@@ -10,6 +10,8 @@
   <meta charset="utf-8" />
   <title>
     
+      
+        Como mapear corretamente Volume ID do EBS em uma EC2 Windows |
       Luciana Silva
 
   </title>
@@ -18,7 +20,7 @@
   <meta name="author" content="Luciana Silva" />
   <meta
     name="description"
-    content="CloudOps Engineer"
+    content="Aprenda como identificar corretamente volumes EBS em instâncias EC2 Windows."
   />
   
   
@@ -70,9 +72,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="http://localhost:1313/" />
+  <link rel="canonical" href="http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="My blog" />
   
   
   
@@ -105,31 +106,143 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
-  <meta name="twitter:title" content="My blog">
+  <meta name="twitter:title" content="Como mapear corretamente Volume ID do EBS em uma EC2 Windows">
+  <meta name="twitter:description" content="Aprenda como identificar corretamente volumes EBS em instâncias EC2 Windows.">
 
 
 
   
-  <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:url" content="http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/">
   <meta property="og:site_name" content="My blog">
-  <meta property="og:title" content="My blog">
+  <meta property="og:title" content="Como mapear corretamente Volume ID do EBS em uma EC2 Windows">
+  <meta property="og:description" content="Aprenda como identificar corretamente volumes EBS em instâncias EC2 Windows.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2026-02-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-28T00:00:00+00:00">
+    <meta property="article:tag" content="AWS">
+    <meta property="article:tag" content="EC2">
+    <meta property="article:tag" content="Windows Server">
+    <meta property="article:tag" content="EBS">
+    <meta property="article:tag" content="NVMe">
+    <meta property="article:tag" content="CloudOps">
     <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
 
 
 
   
+  
+  
+  
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "My blog",
-      "url": "http:\/\/localhost:1313\/",
-      "description": "CloudOps Engineer",
-      "thumbnailUrl": "http:\/\/localhost:1313\/",
-      "license": ""
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Como mapear corretamente Volume ID do EBS em uma EC2 Windows",
+        "headline": "Como mapear corretamente Volume ID do EBS em uma EC2 Windows",
+        "alternativeHeadline": "",
+        "description": "
+      Aprenda como identificar corretamente volumes EBS em instâncias EC2 Windows.
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/post\/ec2-windows-nvme-mapear-volume-ebs\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "dateCreated": "2026-02-28T00:00:00.00Z",
+        "datePublished": "2026-02-28T00:00:00.00Z",
+        "dateModified": "2026-02-28T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Luciana Silva",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "http://localhost:1313/images/site-feature-image.png"
+
+
       
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/post\/ec2-windows-nvme-mapear-volume-ebs\/",
+        "wordCount" : "254",
+        "genre" : [ 
+      
+      "CloudOps"
+
+    ],
+        "keywords" : [ 
+      
+      "AWS"
+
+    
+      
+        ,
+
+      
+      "EC2"
+
+    
+      
+        ,
+
+      
+      "Windows Server"
+
+    
+      
+        ,
+
+      
+      "EBS"
+
+    
+      
+        ,
+
+      
+      "NVMe"
+
+    
+      
+        ,
+
+      
+      "CloudOps"
+
+    ]
     }
   </script>
 
@@ -160,9 +273,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <h1>
-            <a href="/">Luciana Silva</a>
-          </h1>
+          <a href="/">Luciana Silva</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -276,8 +387,6 @@
             
             <a
               
-                class="nav__link--active"
-              
               href="/"
               
               title=""
@@ -385,29 +494,6 @@
     </ul>
     <ul class="nav__list nav__list--end">
       
-        <li class="nav__list-item">
-          <div class="optionswitch">
-            <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden />
-            <label class="optionswitch__label" for="languagepicker"
-              >EN <i class="fa fa-angle-down" aria-hidden="true"></i
-            ></label>
-            <div class="optionswitch__triangle"></div>
-            <ul class="optionswitch__list">
-              
-                <li class="optionswitch__list-item">
-                  <a href="/ar/" title="AR"
-                    ><span
-                      
-                      aria-label="AR"
-                      >AR</span
-                    >
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        </li>
-      
       
         <li class="nav__list-item">
           <div class="themeswitch">
@@ -426,165 +512,108 @@
       animated fadeInDown
     "
   >
+    
     <div class="post__content">
-      <!--
-This file is left intentionally empty by default to be backwards compatible with the initial theme setup.
+      
+        <h1>Como Mapear Corretamente Volume ID Do EBS Em Uma EC2 Windows</h1>
+      
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  28/2/2026
+                
 
-Although the theme has advanced a little bit and it now allows to specify the content on the main page (even if the list of posts/articles is not intended).
-This can be:
-- with the list of posts/articles (default: `mainSections = ["post"]) or
-- without the list of posts/articles (by setting `mainSections = [""]`)
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <p>E aew pessoal,</p>
+<p>Recebi uma solicitação para aumentar o tamanho de uma unidade específica em um servidor Windows hospedado na AWS.</p>
+<p>Até aqui, algo comum.</p>
+<p>O problema?<br>
+A instância EC2 possuía <strong>múltiplos volumes EBS anexados</strong>.</p>
+<p>E quando há vários discos no mesmo servidor, existe um risco real:</p>
+<blockquote>
+<p>❗ Aumentar o volume errado na AWS.</p>
+</blockquote>
+<p>Em ambientes produtivos (principalmente banco de dados ou SAP), isso pode gerar impacto significativo.</p>
+<hr>
+<h2 id="método-1--utilizando-o-utilitário-ebsnvme-id">Método 1 &mdash; Utilizando o utilitário ebsnvme-id</h2>
+<p>A AWS disponibiliza o utilitário <code>ebsnvme-id</code> para mapear discos NVMe
+aos volumes EBS.</p>
+<p>Esse comando permite identificar:</p>
+<ul>
+<li>Número do disco NVMe</li>
+<li>ID do volume EBS</li>
+<li>Nome do dispositivo configurado na instância</li>
+</ul>
+<p>Executar:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ebsnvme-id.exe
+</span></span></code></pre></div><p>Ou para um disco específico:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ebsnvme-id.exe /dev/nvme1n1
+</span></span></code></pre></div><p>Exemplo de retorno:
+<img src="/images/ebs.png" alt="Mapeamento EBS NVMe"></p>
+<hr>
+<h2 id="método-2--identificação-via-powershell">Método 2 &mdash; Identificação via PowerShell</h2>
+<p>O <code>SerialNumber</code> do disco contém o Volume ID do EBS.</p>
+<p>Execute no PowerShell como Administrador:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Get-Disk</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$disk</span> <span class="p">=</span> <span class="nv">$_</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-Partition</span> <span class="n">-DiskNumber</span> <span class="nv">$disk</span><span class="p">.</span><span class="py">Number</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">PSCustomObject</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DiskNumber</span>   <span class="p">=</span> <span class="nv">$disk</span><span class="p">.</span><span class="py">Number</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DriveLetter</span>  <span class="p">=</span> <span class="nv">$_</span><span class="p">.</span><span class="py">DriveLetter</span>
+</span></span><span class="line"><span class="cl">            <span class="n">SizeGB</span>       <span class="p">=</span> <span class="p">[</span><span class="no">math</span><span class="p">]::</span><span class="n">Round</span><span class="p">(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Size</span><span class="p">/</span><span class="mf">1</span><span class="p">GB,</span><span class="mf">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">VolumeID</span>     <span class="p">=</span> <span class="p">(</span><span class="nv">$disk</span><span class="p">.</span><span class="py">SerialNumber</span> <span class="o">-replace</span> <span class="s1">&#39;_00000001&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="exemplo-de-saída">Exemplo de saída:</h3>
+<pre><code>DiskNumber DriveLetter SizeGB VolumeID
+---------- ----------- ------ ------------------------
+0          C           120    vol-052ddc735fba28ced
+6          E           16384  vol-05c810fda39b84d84
+4          F           5548   vol-09748167b6350a54d
+</code></pre>
+<p>O campo <code>VolumeID</code> corresponde exatamente ao ID do volume no console da
+AWS.</p>
+<hr>
+<h2 id="boas-práticas-operacionais">Boas práticas operacionais</h2>
+<p>Antes de qualquer alteração em disco:</p>
+<ul>
+<li>Validar Volume ID</li>
+<li>Validar tamanho provisionado (GB)</li>
+<li>Confirmar que está de fato na instância correta</li>
+<li>Registrar evidência técnica no ticket</li>
+</ul>
+<p>Nunca utilizar apenas o tamanho ou a ordem dos discos como referência.</p>
+<hr>
+<p>Até a próxima e keep learning =)</p>
 
-Markdown supported, ie:
+</div>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/categories/cloudops/">CloudOps</a></span>
 
-```
-# Welcome
 
-- Hugo :rocket:
-- Hugo theme :rocket:
+      
 
-Don't forget to check the README.md file!
-```
+      
+        <span><a class="tag" href="/tags/aws/">AWS</a><a class="tag" href="/tags/ec2/">EC2</a><a class="tag" href="/tags/windows-server/">Windows Server</a><a class="tag" href="/tags/ebs/">EBS</a><a class="tag" href="/tags/nvme/">NVMe</a><a class="tag" href="/tags/cloudops/">CloudOps</a></span>
 
-Remember that you can also specify a section header for the posts below by configuring the `mainSectionsTitle` parameter in the front matter of this file.
--->
 
+      
     </div>
 
     
-  </div>
-
-  
-
-  
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/post/ec2-windows-nvme-mapear-volume-ebs/">COMO MAPEAR CORRETAMENTE VOLUME ID DO EBS EM UMA EC2 WINDOWS</a></h3>
-        
-        
-          <p>E aew pessoal,
-Recebi uma solicitação para aumentar o tamanho de uma unidade específica em um servidor Windows hospedado na AWS.
-</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              28/2/2026
-            
-
-          </span
-        >
-        
-          <span><a class="category" href="/categories/cloudops/">CloudOps</a></span>
-
-
-        
-
-        
-          <span><a class="tag" href="/tags/aws/">AWS</a><a class="tag" href="/tags/ec2/">EC2</a><a class="tag" href="/tags/windows-server/">Windows Server</a><a class="tag" href="/tags/ebs/">EBS</a><a class="tag" href="/tags/nvme/">NVMe</a><a class="tag" href="/tags/cloudops/">CloudOps</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/post/aws-saa/">COMO ME PREPAREI PARA A AWS CERTIFIED SOLUTIONS ARCHITECT – ASSOCIATE</a></h3>
-        
-        
-          <p>O AWS Certified Solutions Architect – Associate tem como foco o design de soluções otimizadas em termos de custo e desempenho. Ela é o ponto de partida ideal para candidatos com sólida experiência em TI on-premises ou na Nuvem AWS. Este exame não requer experiência prática profunda em codificação, embora a familiaridade com os conceitos básicos de programação seja uma vantagem.
-</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              21/2/2026
-            
-
-          </span
-        >
-        
-          <span><a class="category" href="/categories/certificacao/">certificacao</a></span>
-
-
-        
-
-        
-          <span><a class="tag" href="/tags/aws/">AWS</a><a class="tag" href="/tags/certificacao/">certificacao</a><a class="tag" href="/tags/prova/">prova</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/post/publicando-hugo-cloudflare-pages/">DO ZERO AO DEPLOY: COMO PUBLIQUEI MEU SITE COM HUGO E CLOUDFLARE PAGES</a></h3>
-        
-        
-          <p>Sejam bem-vindos ao meu primeiro post! Hoje vou mostrar os bastidores de como este site nasceu. Escolhi uma stack moderna, rápida e, o melhor de tudo, totalmente gratuita para hospedar.
-</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              21/2/2026
-            
-
-          </span
-        >
-        
-          <span><a class="category" href="/categories/tutorial/">Tutorial</a></span>
-
-
-        
-
-        
-          <span><a class="tag" href="/tags/hugo/">hugo</a><a class="tag" href="/tags/cloudflare/">cloudflare</a><a class="tag" href="/tags/tutorial/">tutorial</a><a class="tag" href="/tags/git/">git</a><a class="tag" href="/tags/webdev/">webdev</a></span>
-
-
-        
-      </div>
-    </div>
-  
-  <div class="pagination">
-    
-
   </div>
 
       </main>

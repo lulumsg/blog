@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -16,10 +16,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/aws/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -31,17 +31,23 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/certificacao/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <loc>http://localhost:1313/categories/cloudops/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/certificacao/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <loc>http://localhost:1313/tags/cloudops/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/aws-saa/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <loc>http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ebs/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ec2/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -53,8 +59,11 @@
                 href="http://localhost:1313/tags/index/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/nvme/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -66,11 +75,8 @@
                 href="http://localhost:1313/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/prova/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -81,6 +87,21 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tags/windows-server/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/certificacao/</loc>
+    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/certificacao/</loc>
+    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/aws-saa/</loc>
+    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prova/</loc>
+    <lastmod>2026-02-21T19:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cloudflare/</loc>
     <lastmod>2026-02-21T18:00:00-03:00</lastmod>
