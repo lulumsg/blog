@@ -6,7 +6,73 @@
     <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 16:50:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index</title>
+      <link>http://localhost:1313/tags/index/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iterm2</title>
+      <link>http://localhost:1313/tags/iterm2/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/iterm2/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>http://localhost:1313/tags/macos/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/macos/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Produtividade</title>
+      <link>http://localhost:1313/tags/produtividade/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/produtividade/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/tutorial/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>http://localhost:1313/tags/zsh/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/zsh/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>AWS</title>
       <link>http://localhost:1313/tags/aws/</link>
@@ -46,17 +112,6 @@
       <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/ec2/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/index/</guid>
       
         <description></description>
       
@@ -134,17 +189,6 @@
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/tags/hugo/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
-      <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/tutorial/</guid>
       
         <description></description>
       

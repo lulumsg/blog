@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Produtividade on My blog</title>
+    <link>http://localhost:1313/tags/produtividade/</link>
+    <description>Recent content in Produtividade on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 16:50:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/produtividade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personalizando seu terminal do Mac</title>
+      <link>http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/</guid>
+      
+        <description>Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

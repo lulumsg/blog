@@ -1,0 +1,671 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    
+      
+        Personalizando seu terminal do Mac |
+      Luciana Silva
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.152.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Luciana Silva" />
+  <meta
+    name="description"
+    content="Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions."
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.css" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
+  <meta name="twitter:title" content="Personalizando seu terminal do Mac">
+  <meta name="twitter:description" content="Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions.">
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/">
+  <meta property="og:site_name" content="My blog">
+  <meta property="og:title" content="Personalizando seu terminal do Mac">
+  <meta property="og:description" content="Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2026-04-04T16:50:00-03:00">
+    <meta property="article:modified_time" content="2026-04-04T16:50:00-03:00">
+    <meta property="article:tag" content="Tutorial">
+    <meta property="article:tag" content="Iterm2">
+    <meta property="article:tag" content="Zsh">
+    <meta property="article:tag" content="Macos">
+    <meta property="article:tag" content="Produtividade">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Personalizando seu terminal do Mac",
+        "headline": "Personalizando seu terminal do Mac",
+        "alternativeHeadline": "",
+        "description": "
+      Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions.
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/post\/customizando-terminal-mac-oh-my-zsh\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Luciana Silva"
+        },
+        "dateCreated": "2026-04-04T16:50:00.00Z",
+        "datePublished": "2026-04-04T16:50:00.00Z",
+        "dateModified": "2026-04-04T16:50:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Luciana Silva",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "http://localhost:1313/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/post\/customizando-terminal-mac-oh-my-zsh\/",
+        "wordCount" : "652",
+        "genre" : [ 
+      
+      "Setup"
+
+    ],
+        "keywords" : [ 
+      
+      "tutorial"
+
+    
+      
+        ,
+
+      
+      "iterm2"
+
+    
+      
+        ,
+
+      
+      "zsh"
+
+    
+      
+        ,
+
+      
+      "macos"
+
+    
+      
+        ,
+
+      
+      "produtividade"
+
+    ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpeg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Luciana Silva</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>CloudOps Engineer</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/luciana-silva-151504122"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/lulumsg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.instagram.com/lulumsg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="instagram"
+            title="instagram"
+          >
+            <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:eu@lucianatech.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Luciana Silva
+        2026
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+
+          <li class="nav__list-item">
+            <div class="optionswitch">
+              <input class="optionswitch__picker" type="checkbox" id="3" hidden />
+
+              
+              
+                
+
+              
+                
+
+              
+
+
+              <label class="optionswitch__label" for="3"
+                >Accomplishments <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></label>
+
+              <div class="optionswitch__triangle"></div>
+              <ul class="optionswitch__list">
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/awards/"
+                      
+                      title=""
+                      >Awards</a
+                    >
+                  </li>
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/certifications/"
+                      
+                      title=""
+                      >Certifications</a
+                    >
+                  </li>
+                
+              </ul>
+            </div>
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/contact/"
+              
+              title=""
+              >Contact</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Personalizando Seu Terminal Do Mac</h1>
+      
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  4/4/2026
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">4-minute read</span>
+          </li>
+        </ul>
+      <p>Se você, assim como eu, estava acostumado(a) com um certo nível de customização do terminal (vim do Ubuntu) e deseja algo melhor do que o Terminal padrão do macOS, aqui está um tutorial para personalizar seu terminal com o <strong>iTerm2</strong>, <strong>Oh My Zsh</strong> e o <strong>Powerlevel10k</strong>.</p>
+<p>Meu terminal ficou assim:</p>
+<p><img src="/images/terminal.png" alt="Terminal"></p>
+<hr>
+<h3 id="passo-1-instalar-o-iterm2-usando-o-homebrew">Passo 1: Instalar o iTerm2 usando o Homebrew</h3>
+<p>O primeiro passo é substituir o terminal nativo pelo <strong>iTerm2</strong>, que oferece recursos como split panes e busca avançada. A forma que escolhi de fazer isso no Mac é via Homebrew.</p>
+<p>No seu terminal atual, execute:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install --cask iterm2
+</span></span></code></pre></div><p>Eu utilizei o esquema de cores Vesper. Ele traz um visual muito bacana para mim. Para baixar, use o comando abaixo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -L https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Vesper.itermcolors -o Vesper.itermcolors
+</span></span></code></pre></div><p>Para definir o tema no seu:</p>
+<p>Acesse iTerm → Settings → Profiles → Colors → Color Presets.</p>
+<p>Se você quiser mais temas, confira o <a href="https://iterm2colorschemes.com/">iTerm2 Color Schemes</a>.</p>
+<hr>
+<h3 id="passo-2-instalar-o-oh-my-zsh">Passo 2: Instalar o Oh My Zsh</h3>
+<p>Com o iTerm2 instalado, o próximo passo é instalar o <strong>Oh My Zsh</strong>, um framework para gerenciar sua configuração do Zsh de forma fácil e poderosa.</p>
+<p>No terminal, cole e execute:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><h3 id="passo-3-instalar-as-fontes-nerd-fonts">Passo 3: Instalar as Fontes (Nerd Fonts)</h3>
+<p>O tema Powerlevel10k exige uma fonte com suporte a ícones (Nerd Fonts). A recomendada é a <strong>Meslo Nerd Font</strong>, mas você pode escolher outra fonte.</p>
+<ol>
+<li>Baixe as fontes MesloLGS NF recomendadas pelo <a href="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k">repositório oficial clicando aqui</a>.</li>
+<li>Instale as fontes no seu Mac.</li>
+<li>No iTerm2, vá em <strong>iTerm2 → Settings → Profiles → Text</strong>.</li>
+<li>Na seção <strong>Font</strong>, selecione a <code>MesloLGS NF</code>.</li>
+</ol>
+<h3 id="passo-4-instalar-o-powerlevel10k">Passo 4: Instalar o Powerlevel10k</h3>
+<p>Agora vamos instalar o <strong>Powerlevel10k</strong>, que é um tema super rápido, flexível e famoso da comunidade.</p>
+<p>Clone o repositório do tema com o comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone --depth<span class="o">=</span><span class="m">1</span> https://github.com/romkatv/powerlevel10k.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="si">}</span>/themes/powerlevel10k
+</span></span></code></pre></div><p>Em seguida, abra o arquivo <code>~/.zshrc</code> no seu editor favorito (por exemplo, <code>nano ~/.zshrc</code>) e procure pela variável <code>ZSH_THEME</code>. Altere para o valor abaixo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">ZSH_THEME</span><span class="o">=</span><span class="s2">&#34;powerlevel10k/powerlevel10k&#34;</span>
+</span></span></code></pre></div><p>Salve e reinicie o seu terminal (ou execute <code>source ~/.zshrc</code>). Ao fazer isso, o assistente de configuração do Powerlevel10k vai abrir automaticamente e você pode seguir respondendo as perguntas interativas para deixar o visual como você preferir! Caso o assistente não abra, ou se quiser refazer a configuração depois, rode:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">p10k configure
+</span></span></code></pre></div><h3 id="passo-5-plugins-auto-suggestions-e-syntax-highlighting">Passo 5: Plugins (Auto-suggestions e Syntax Highlighting)</h3>
+<p>Plugins são essenciais para ganhar produtividade real no terminal. Dois dos mais recomendados são o <code>zsh-autosuggestions</code> (sugere comandos com base no histórico que você já digitou) e o <code>zsh-syntax-highlighting</code> (colore de verde comandos válidos e de vermelho os comandos que contêm algum erro de digitação).</p>
+<ol>
+<li>Clone os repositórios oficiais na pasta custom do Oh My Zsh:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-syntax-highlighting
+</span></span></code></pre></div><ol start="2">
+<li>Volte a abrir o seu <code>~/.zshrc</code>, procure pela linha com um conjunto de plugins, geralmente algo como <code>plugins=(git)</code>, e modifique adicionando os novos:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>git zsh-autosuggestions zsh-syntax-highlighting<span class="o">)</span>
+</span></span></code></pre></div><ol start="3">
+<li>Recarregue novamente com <code>source ~/.zshrc</code>.</li>
+</ol>
+<hr>
+<h3 id="dica-bônus-atalhos-de-navegação-no-iterm2">Dica Bônus: Atalhos de Navegação no iTerm2</h3>
+<p>Para fechar o meu setup, eu gosto de configurar alguns atalhos de teclado no iTerm2 que vão me poupar muito tempo para pular palavras ou limpar linhas (<a href="https://mariusschulz.com/blog/keyboard-shortcuts-for-jumping-and-deleting-in-iterm2">baseado no guia do Marius Schulz</a>).</p>
+<p>Vá em <strong>iTerm2 → Settings → Profiles → Keys → Key Mappings</strong> (ou abra aba &ldquo;Keys&rdquo; global) e adicione as seguintes combinações clicando no <code>+</code>:</p>
+<ul>
+<li><strong>Pular para o início da palavra (<code>⌥ ←</code>)</strong>:
+<ul>
+<li>Action: Send Escape Sequence</li>
+<li>Esc+: <code>b</code></li>
+</ul>
+</li>
+<li><strong>Pular para o final da palavra (<code>⌥ →</code>)</strong>:
+<ul>
+<li>Action: Send Escape Sequence</li>
+<li>Esc+: <code>f</code></li>
+</ul>
+</li>
+<li><strong>Pular para o início da linha (<code>⌘ ←</code>)</strong>:
+<ul>
+<li>Action: Send Hex Code</li>
+<li>Hex Code: <code>0x01</code></li>
+</ul>
+</li>
+<li><strong>Pular para o final da linha (<code>⌘ →</code>)</strong>:
+<ul>
+<li>Action: Send Hex Code</li>
+<li>Hex Code: <code>0x05</code></li>
+</ul>
+</li>
+<li><strong>Apagar a palavra inteira para trás (<code>⌥ ⌫</code>)</strong>:
+<ul>
+<li>Action: Send Hex Code</li>
+<li>Hex Code: <code>0x17</code></li>
+</ul>
+</li>
+<li><strong>Apagar a linha inteira (<code>⌘ ⌫</code>)</strong>:
+<ul>
+<li>Action: Send Hex Code</li>
+<li>Hex Code: <code>0x15</code></li>
+</ul>
+</li>
+</ul>
+<p>Pronto! Com esses passos, o seu novo terminal turbinado com iTerm2, Oh My Zsh e Powerlevel10k vai te ajudar com fluxos de trabalho incrivelmente mais produtivos :)</p>
+
+</div>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/categories/setup/">Setup</a></span>
+
+
+      
+
+      
+        <span><a class="tag" href="/tags/tutorial/">tutorial</a><a class="tag" href="/tags/iterm2/">iterm2</a><a class="tag" href="/tags/zsh/">zsh</a><a class="tag" href="/tags/macos/">macos</a><a class="tag" href="/tags/produtividade/">produtividade</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Luciana Silva
+        2026
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

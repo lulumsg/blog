@@ -6,7 +6,18 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 16:50:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personalizando seu terminal do Mac</title>
+      <link>http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/</guid>
+      
+        <description>Guia passo a passo para configurar a stack definitiva: iTerm2, Oh My Zsh, Powerlevel10k e Auto-suggestions.</description>
+      
+    </item>
+    
     <item>
       <title>Como mapear corretamente Volume ID do EBS em uma EC2 Windows</title>
       <link>http://localhost:1313/post/ec2-windows-nvme-mapear-volume-ebs/</link>

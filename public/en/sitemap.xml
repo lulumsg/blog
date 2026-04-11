@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -15,11 +15,8 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/aws/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -30,6 +27,69 @@
                 hreflang="en"
                 href="http://localhost:1313/categories/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tags/index/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/index/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/iterm2/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/macos/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/customizando-terminal-mac-oh-my-zsh/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/produtividade/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/setup/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zsh/</loc>
+    <lastmod>2026-04-04T16:50:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/aws/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cloudops/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
@@ -46,47 +106,8 @@
     <loc>http://localhost:1313/tags/ec2/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/index/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tags/nvme/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/post/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/windows-server/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
@@ -116,9 +137,6 @@
     <lastmod>2026-02-21T18:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tutorial/</loc>
-    <lastmod>2026-02-21T18:00:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
     <lastmod>2026-02-21T18:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/webdev/</loc>
