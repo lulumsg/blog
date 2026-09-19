@@ -2,125 +2,125 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ar/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://blog-bqi.pages.dev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://blog-bqi.pages.dev/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/archives/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/archives/"
+                href="https://blog-bqi.pages.dev/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/archives/"
+                href="https://blog-bqi.pages.dev/ar/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/contact/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/contact/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contact/"
+                href="https://blog-bqi.pages.dev/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/contact/"
+                href="https://blog-bqi.pages.dev/ar/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/index/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/tags/index/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/index/"
+                href="https://blog-bqi.pages.dev/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/index/"
+                href="https://blog-bqi.pages.dev/ar/tags/index/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/post/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/post/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/"
+                href="https://blog-bqi.pages.dev/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/post/"
+                href="https://blog-bqi.pages.dev/ar/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/tags/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://blog-bqi.pages.dev/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://blog-bqi.pages.dev/ar/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ar/post/arabic_example/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/post/arabic_example/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ar/about/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://blog-bqi.pages.dev/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/about/"
+                href="https://blog-bqi.pages.dev/ar/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/categories/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://blog-bqi.pages.dev/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://blog-bqi.pages.dev/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/series/</loc>
+    <loc>https://blog-bqi.pages.dev/ar/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://blog-bqi.pages.dev/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/series/"
+                href="https://blog-bqi.pages.dev/ar/series/"
                 />
   </url>
 </urlset>

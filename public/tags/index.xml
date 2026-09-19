@@ -2,83 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog-bqi.pages.dev/tags/</link>
     <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 16:50:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/index/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Iterm2</title>
-      <link>http://localhost:1313/tags/iterm2/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/iterm2/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Macos</title>
-      <link>http://localhost:1313/tags/macos/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/macos/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Produtividade</title>
-      <link>http://localhost:1313/tags/produtividade/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/produtividade/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/tutorial/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Zsh</title>
-      <link>http://localhost:1313/tags/zsh/</link>
-      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/zsh/</guid>
-      
-        <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Wed, 02 Sep 2026 10:00:00 -0300</lastBuildDate><atom:link href="https://blog-bqi.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
-      <link>http://localhost:1313/tags/aws/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/aws/</guid>
+      <link>https://blog-bqi.pages.dev/tags/aws/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/aws/</guid>
       
         <description></description>
       
@@ -86,21 +20,10 @@
     
     <item>
       <title>CloudOps</title>
-      <link>http://localhost:1313/tags/cloudops/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/cloudops/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>EBS</title>
-      <link>http://localhost:1313/tags/ebs/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ebs/</guid>
+      <link>https://blog-bqi.pages.dev/tags/cloudops/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/cloudops/</guid>
       
         <description></description>
       
@@ -108,32 +31,65 @@
     
     <item>
       <title>EC2</title>
-      <link>http://localhost:1313/tags/ec2/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ec2/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>NVMe</title>
-      <link>http://localhost:1313/tags/nvme/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/nvme/</guid>
+      <link>https://blog-bqi.pages.dev/tags/ec2/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/ec2/</guid>
       
         <description></description>
       
     </item>
     
     <item>
-      <title>Windows Server</title>
-      <link>http://localhost:1313/tags/windows-server/</link>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Index</title>
+      <link>https://blog-bqi.pages.dev/tags/index/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/index/</guid>
       
-      <guid>http://localhost:1313/tags/windows-server/</guid>
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Seguranca</title>
+      <link>https://blog-bqi.pages.dev/tags/seguranca/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/seguranca/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Session Manager</title>
+      <link>https://blog-bqi.pages.dev/tags/session-manager/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/session-manager/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SSM</title>
+      <link>https://blog-bqi.pages.dev/tags/ssm/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/ssm/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Application Networking</title>
+      <link>https://blog-bqi.pages.dev/tags/application-networking/</link>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/application-networking/</guid>
       
         <description></description>
       
@@ -141,10 +97,120 @@
     
     <item>
       <title>Certificacao</title>
-      <link>http://localhost:1313/tags/certificacao/</link>
-      <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
+      <link>https://blog-bqi.pages.dev/tags/certificacao/</link>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/certificacao/</guid>
       
-      <guid>http://localhost:1313/tags/certificacao/</guid>
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Exam Lab</title>
+      <link>https://blog-bqi.pages.dev/tags/exam-lab/</link>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/exam-lab/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://blog-bqi.pages.dev/tags/networking/</link>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/networking/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iterm2</title>
+      <link>https://blog-bqi.pages.dev/tags/iterm2/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/iterm2/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>https://blog-bqi.pages.dev/tags/macos/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/macos/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Produtividade</title>
+      <link>https://blog-bqi.pages.dev/tags/produtividade/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/produtividade/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://blog-bqi.pages.dev/tags/tutorial/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/tutorial/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>https://blog-bqi.pages.dev/tags/zsh/</link>
+      <pubDate>Sat, 04 Apr 2026 16:50:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/zsh/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>EBS</title>
+      <link>https://blog-bqi.pages.dev/tags/ebs/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/ebs/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NVMe</title>
+      <link>https://blog-bqi.pages.dev/tags/nvme/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/nvme/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows Server</title>
+      <link>https://blog-bqi.pages.dev/tags/windows-server/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/windows-server/</guid>
       
         <description></description>
       
@@ -152,10 +218,10 @@
     
     <item>
       <title>Prova</title>
-      <link>http://localhost:1313/tags/prova/</link>
+      <link>https://blog-bqi.pages.dev/tags/prova/</link>
       <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/prova/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/prova/</guid>
       
         <description></description>
       
@@ -163,10 +229,10 @@
     
     <item>
       <title>Cloudflare</title>
-      <link>http://localhost:1313/tags/cloudflare/</link>
+      <link>https://blog-bqi.pages.dev/tags/cloudflare/</link>
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/cloudflare/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/cloudflare/</guid>
       
         <description></description>
       
@@ -174,10 +240,10 @@
     
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://blog-bqi.pages.dev/tags/git/</link>
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/git/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/git/</guid>
       
         <description></description>
       
@@ -185,10 +251,10 @@
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://blog-bqi.pages.dev/tags/hugo/</link>
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/hugo/</guid>
       
         <description></description>
       
@@ -196,10 +262,10 @@
     
     <item>
       <title>Webdev</title>
-      <link>http://localhost:1313/tags/webdev/</link>
+      <link>https://blog-bqi.pages.dev/tags/webdev/</link>
       <pubDate>Sat, 21 Feb 2026 18:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/webdev/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/tags/webdev/</guid>
       
         <description></description>
       

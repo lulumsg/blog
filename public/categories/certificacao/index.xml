@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Certificacao on My blog</title>
-    <link>http://localhost:1313/categories/certificacao/</link>
+    <link>https://blog-bqi.pages.dev/categories/certificacao/</link>
     <description>Recent content in Certificacao on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 19:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/certificacao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Apr 2026 09:00:00 -0300</lastBuildDate><atom:link href="https://blog-bqi.pages.dev/categories/certificacao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A minha experiência com o Exam Lab AWS Application Networking Demonstrated</title>
+      <link>https://blog-bqi.pages.dev/post/aws-application-networking-demonstrated/</link>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/post/aws-application-networking-demonstrated/</guid>
+      
+        <description>Um pouco sobre o Exam Lab prático de Application Networking da AWS.</description>
+      
+    </item>
+    
     <item>
       <title>Como me preparei para a AWS Certified Solutions Architect – Associate</title>
-      <link>http://localhost:1313/post/aws-saa/</link>
+      <link>https://blog-bqi.pages.dev/post/aws-saa/</link>
       <pubDate>Sat, 21 Feb 2026 19:00:00 -0300</pubDate>
-      
-      <guid>http://localhost:1313/post/aws-saa/</guid>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/post/aws-saa/</guid>
       
         <description>Um guia sobre como me preparei para a SAA.</description>
       

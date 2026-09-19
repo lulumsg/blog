@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seguranca on My blog</title>
+    <link>https://blog-bqi.pages.dev/tags/seguranca/</link>
+    <description>Recent content in Seguranca on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Sep 2026 10:00:00 -0300</lastBuildDate><atom:link href="https://blog-bqi.pages.dev/tags/seguranca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adeus bastion host: acessando EC2 privada com SSM Session Manager</title>
+      <link>https://blog-bqi.pages.dev/post/ssm-session-manager-adeus-bastion-host/</link>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 -0300</pubDate>
+      <author>Luciana Silva</author>
+      <guid>https://blog-bqi.pages.dev/post/ssm-session-manager-adeus-bastion-host/</guid>
+      
+        <description>Como substituir o bastion host por SSM Session Manager para acessar instâncias EC2 privadas com mais segurança e sem porta 22 aberta.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
